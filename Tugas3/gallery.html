@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        .gallery-container {
+            width: 100%;
+            height: 100vh; 
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        marquee {
+            width: 100%;
+            height: 90vh;
+        }
+        .gallery-container img {
+            width: 90%;
+            height: 90vh; 
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Gallery Hewan Kotak</h1>
+
+    <div class="gallery-container">
+        <marquee behavior="scroll" direction="left" scrollamount="10">
+            <img src="https://cdn0-production-images-kly.akamaized.net/nZZCwrs3fuuIwughg7UaPn-OYt0=/1231x710/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2692087/original/005927200_1547176382-hewan_kotak-20170118-editor-008.jpg" alt="Image 1">
+            <img src="https://cdn0-production-images-kly.akamaized.net/6XxZVLiSHijzITflG7V6LJ2JoZg=/1231x710/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2692086/original/049379200_1547176381-hewan_kotak-20170118-editor-007.jpg" alt="Image 2">
+            <img src="https://cdn0-production-images-kly.akamaized.net/V1-qf4Zdy4-0RsLC63CnN5bSSLY=/1231x710/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2692084/original/039742500_1547176380-hewan_kotak-20170118-editor-005.jpg" alt="Image 3">
+        </marquee>
+    </div>
+
+</body>
+</html>
