@@ -10,6 +10,7 @@ This repository is structured into different branches, each containing assignmen
 
 - **[Web Design](https://github.com/AzkaaZha/FWD-NFA2025/tree/1-Desain-Web)** – HTML, CSS, and basic UI design.  
 - **[JavaScript](https://github.com/AzkaaZha/FWD-NFA2025/tree/2-JavaScript)** – JavaScript fundamentals, DOM manipulation, and event handling.
-- **[React JS](https://github.com/AzkaaZha/FWD-NFA2025/tree/3-React)** 
+- **[React JS](https://github.com/AzkaaZha/FWD-NFA2025/tree/3-React)**
+- **[PHP](https://github.com/AzkaaZha/FWD-NFA2025/tree/4-PHP)**
 
 Each branch contains structured learning materials and hands-on projects. Feel free to explore! 🚀
